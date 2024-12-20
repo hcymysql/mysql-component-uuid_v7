@@ -18,6 +18,7 @@ shell> make -j$(nproc)
 注：会在/root/soft/mysql-8.0.39/build/plugin_output_directory/目录下生成component_uuid_v7.so，
 将其拷贝至/usr/local/mysql/lib/plugin/目录下，然后按照下面的步骤进行插件安装。
 
+### 如自己不想编译，可以直接下载编译好的component_uuid_v7.so文件（Centos 7系统）
 
 # mysql-component-uuid_v7
 
