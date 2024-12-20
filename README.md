@@ -9,8 +9,8 @@
 #### 3、编译
 ```
 shell> cd /root/soft/mysql-8.0.39
-shell> mkdir build```
-shell> cd build```
+shell> mkdir build
+shell> cd build
 shell> cmake .. -DWITH_COMPONENTS=uuid_v7 -DWITH_BOOST=/root/soft/mysql-8.0.39/boost/boost_1_77_0/
 shell> make -j$(nproc)
 ```
